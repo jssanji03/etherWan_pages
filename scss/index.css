@@ -1,0 +1,44 @@
+.homePage {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homePage .inner {
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+}
+
+.homePage .inner .logoBox {
+  margin: 0 auto;
+  width: 150px;
+}
+
+.homePage .inner .logoBox img {
+  width: 100%;
+}
+
+.homePage .inner .line {
+  width: 30px;
+  height: 3px;
+  background-color: #2D3994;
+  margin: 0 auto;
+}
+
+.homePage .inner .title {
+  font-weight: 400;
+  padding: 10px;
+  letter-spacing: 5px;
+}
+
+.homePage .inner .title .customer {
+  color: #2D3994;
+}
+/*# sourceMappingURL=index.css.map */
